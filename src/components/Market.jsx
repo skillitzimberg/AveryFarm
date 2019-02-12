@@ -14,7 +14,7 @@ function Market(props){
 }
 
 Market.propTypes = {
-  Monday: PropTypes.string.isRequired,
+  day: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   hours: PropTypes.string.isRequired,
   booth: PropTypes.string.isRequired

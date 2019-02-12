@@ -16,7 +16,7 @@ function Main(){
         `}</style>
       <h1>Main Component</h1>
       <Schedule/>
-      <ProduceList/>
+      <Harvests/>
     </div>
   );
 }
