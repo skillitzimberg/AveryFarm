@@ -6,14 +6,9 @@ import PropTypes from 'prop-types';
 function ProduceList(props){
   return (
     <div>
-
-
       {props.selection.map((produce, index) =>
-
         <Produce item={produce} key={index}/>
-
       )}
-
     </div>
   );
 }
