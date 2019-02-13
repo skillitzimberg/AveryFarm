@@ -9,7 +9,7 @@ function Header(){
           border: 1px solid #000;
         }
         `}</style>
-      <h1>Avery's Farm</h1>
+      <h1>&hearts; Avery&apos;s Farm &hearts;</h1>
       <HeaderNav/>
     </div>
   );

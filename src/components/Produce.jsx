@@ -3,13 +3,9 @@ import PropTypes from 'prop-types';
 
 function Produce(props){
   return (
-    <li>
-    <style jsx>{`
-      li {
-        list-style: none;
-      }
-      `}</style>
-    {props.item}</li>
+    <p>
+      {props.item}
+    </p>
   );
 }
 
